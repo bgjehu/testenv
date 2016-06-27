@@ -1,0 +1,40 @@
+{
+  "name": "testenv",
+  "version": "0.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jay Hu <bgjehu@me.com>",
+  "license": "ISC",
+  "dependencies": {
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "browserify-istanbul": "^2.0.0",
+    "chai": "^3.5.0",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-karma": "0.0.5",
+    "gulp-webdriver": "^2.0.1",
+    "istanbul": "^0.4.4",
+    "jasmine": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-browserify": "^5.0.5",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-coverage": "^1.0.0",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "lodash": "^4.13.1",
+    "mocha": "^2.5.3",
+    "phantomjs-prebuilt": "^2.1.7",
+    "watchify": "^3.7.0",
+    "wdio-jasmine-framework": "^0.2.2",
+    "webdriverio": "^4.1.0",
+    "yargs": "^4.7.1"
+  },
+  "bin": {
+    "testenv": "./bin/testenv"
+  }
+}

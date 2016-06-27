@@ -1,0 +1,7 @@
+# Do not put the following folders into source control:
+node_modules
+
+# Do not put the following files into source control:
+.idea
+npm-debug.log
+
