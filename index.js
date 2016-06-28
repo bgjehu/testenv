@@ -1,4 +1,5 @@
 module.exports = {
-    TestTask: require('./lib/TestTask.js'),
-    TestTasks: require('./lib/TestTasks.js')
+    chrome_launcher: require('karma-chrome_launcher'),
+    firefox_laucher: require('karma-firefox_laucher'),
+    phantomjs_launcher: require('karma-phantomjs-launcher')
 }
