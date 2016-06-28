@@ -2,6 +2,7 @@
 node_modules
 
 # Do not put the following files into source control:
+.npmignore
 .idea
 npm-debug.log
 
