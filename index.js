@@ -1,5 +1,5 @@
 module.exports = {
-    chrome_launcher: require('karma-chrome_launcher'),
-    firefox_laucher: require('karma-firefox_laucher'),
+    chrome_launcher: require('karma-chrome-launcher'),
+    firefox_laucher: require('karma-firefox-laucher'),
     phantomjs_launcher: require('karma-phantomjs-launcher')
 }
