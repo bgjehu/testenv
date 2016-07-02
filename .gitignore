@@ -1,8 +1,9 @@
 # Do not put the following folders into source control:
 node_modules
+.vscode
 
 # Do not put the following files into source control:
+.testenvlog
 .npmignore
-.idea
 npm-debug.log
 

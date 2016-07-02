@@ -1,6 +1,6 @@
 {
   "name": "testenv",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A handy test environment that uses Karma/Webdriver/Mocha test runners for your client/server side unit/integration test and end-to-end test with light configuration and simple command lines.",
   "main": "index.js",
   "scripts": {
@@ -13,10 +13,8 @@
     "browserify": "^13.0.1",
     "browserify-istanbul": "^2.0.0",
     "chai": "^3.5.0",
+    "colors": "^1.1.2",
     "express": "^4.14.0",
-    "gulp": "^3.9.1",
-    "gulp-karma": "0.0.5",
-    "gulp-webdriver": "^2.0.1",
     "istanbul": "^0.4.4",
     "jasmine": "^2.4.1",
     "karma": "^0.13.22",
@@ -32,6 +30,7 @@
     "selenium-standalone": "^5.3.1",
     "watchify": "^3.7.0",
     "wdio-jasmine-framework": "^0.2.2",
+    "wdio-sauce-service": "^0.2.2",
     "webdriverio": "^4.1.0",
     "yargs": "^4.7.1"
   },
@@ -39,7 +38,7 @@
     "testenv": "./bin/testenv"
   },
   "repository": {
-      "type": "git",
-      "url": "git://github.com/bgjehu/testenv.git"
+    "type": "git",
+    "url": "git://github.com/bgjehu/testenv.git"
   }
 }
