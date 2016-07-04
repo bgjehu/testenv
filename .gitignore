@@ -1,6 +1,7 @@
 # Do not put the following folders into source control:
 node_modules
 .vscode
+example
 
 # Do not put the following files into source control:
 .testenvlog
