@@ -16,9 +16,9 @@ testenv init
 testenv touch [<new-config-file-location>] [-k|-w|-m]
 ```
 
-[More about Karma Config File](karma.md)
+[More about Karma Config File](/lib/cli/touch/karma.md)
 
-[More about Webdriver Config File](webdriver.md)
+[More about Webdriver Config File](/lib/cli/touch/webdriver.md)
 
 
 
