@@ -42,7 +42,7 @@
     "url": "git://github.com/bgjehu/testenv.git"
   },
   "scripts" : {
-    "install" : "node ./scripts/install.js",
-    "uninstall": "node ./scripts/uninstall.js"
+    "install" : "sudo node ./scripts/install.js",
+    "uninstall": "sudo node ./scripts/uninstall.js"
   }
 }
