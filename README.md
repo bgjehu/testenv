@@ -6,8 +6,7 @@
 ## Install
 You may want to install this globally for your convenience. The init create a testenv.json for configurating preset command.
 ```
-npm install testenv -g
-testenv init
+npm i -D testenv
 ```
 <br>
 
