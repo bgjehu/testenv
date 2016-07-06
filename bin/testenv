@@ -1,5 +1,4 @@
 #!/usr/bin/env node
 
 //  run cli
-const cli = module.exports = require('../lib/cli/index');
-cli();
+require('../lib/cli/index')();
