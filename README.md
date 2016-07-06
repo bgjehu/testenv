@@ -1,5 +1,5 @@
 # testenv
-![TravisCI](https://travis-ci.org/bgjehu/testenv.svg?branch=master)
+![TravisCI](https://travis-ci.org/bgjehu/testenv.svg?branch=develop)
 <br>
 
 
