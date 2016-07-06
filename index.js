@@ -4,10 +4,17 @@
             specify the setting of testenv.
 */
 
-var path = require('path');
-module.exports = {
-    chrome_launcher: require('karma-chrome-launcher') || require(path.resolve(__dirname, './node_modules/karma-chrome-launcher')),
-    firefox_laucher: require('karma-firefox-launcher') || require(path.resolve(__dirname, './node_modules/karma-firefox-launcher')),
-    phantomjs_launcher: require('karma-phantomjs-launcher') || require(path.resolve(__dirname, './node_modules/karma-phantomjs-launcher')),
-    browserify_istanbul: require('browserify-istanbul') || require(path.resolve(__dirname, './node_modules/browserify-istanbul'))
-}
+const path = require('path');
+const modules = ['karma-chrome-launcher', 'karma-firefox-launcher', 'karma-phantomjs-launcher', 'karma-jasmine', 'karma-browserify', 'browserify-istanbul', 'karma-coverage'];
+const _ = require('lodash');
+var frameworks = _.zipObject(
+    //  keys
+    _.map(modules, function (m) {
+        return m.replace('-','_');
+    }),
+    //  values
+    _.map(modules, function (m) {
+        return require(m) || require(path.resolve(__dirname, `./node_modules/${m}`));
+    })
+);
+module.exports = frameworks;
