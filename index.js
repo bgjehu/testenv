@@ -10,7 +10,7 @@ const _ = require('lodash');
 var frameworks = _.zipObject(
     //  keys
     _.map(modules, function (m) {
-        return m.replace(/-/,'_');
+        return m.split('-').join('_');
     }),
     //  values
     _.map(modules, function (m) {
