@@ -4,7 +4,7 @@ function install(app) {
     const fs = require('fs');
     var globalBin, scriptCode;
     globalBin = `/usr/local/bin/${app}`;
-    scriptCode = `#!/usr/bin/env node\nrequire('${__dirname}/../lib/cli/index')();`;
+    scriptCode = `#!/usr/bin/env node\nrequire('${__dirname}/../lib/cli')();`;
     fs.writeFile(globalBin, scriptCode, {mode:0o755}  , function(err){
         if (err) throw err;
         console.log(`${app} installed in ${globalBin}`.green); 

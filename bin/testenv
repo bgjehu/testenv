@@ -1,4 +1,4 @@
 #!/usr/bin/env node
 
 //  run cli
-require('../lib/cli/index')();
+require('../lib/cli')();
