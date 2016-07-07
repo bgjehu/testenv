@@ -6,8 +6,8 @@
 
 const path = require('path');
 const _ = require('lodash');
-// const dependencies = _.keys(require('./package.json').dependencies);
-const dependencies = ['karma-chrome-launcher', 'karma-firefox-launcher', 'karma-phantomjs-launcher', 'karma-jasmine', 'karma-browserify', 'browserify-istanbul', 'karma-coverage', 'express'];
+const dependencies = _.keys(require('./package.json').dependencies);
+// const dependencies = ['karma-chrome-launcher', 'karma-firefox-launcher', 'karma-phantomjs-launcher', 'karma-jasmine', 'karma-browserify', 'browserify-istanbul', 'karma-coverage', 'express'];
 var frameworks = _.zipObject(
     //  keys
     _.map(dependencies, function (m) {
