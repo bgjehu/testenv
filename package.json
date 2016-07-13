@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "install" : "sudo $(which node) scripts/install.js",
+    "install": "sudo $(which node) scripts/install.js",
     "uninstall": "sudo $(which node) scripts/uninstall.js"
   },
   "author": "Jay Hu <bgjehu@me.com>",
@@ -29,7 +29,7 @@
     "lodash": "^4.13.1",
     "mocha": "^2.5.3",
     "phantomjs-prebuilt": "^2.1.7",
-    "selenium-standalone": "^5.3.1",
+    "selenium-standalone": "^5.5.0",
     "watchify": "^3.7.0",
     "wdio-jasmine-framework": "^0.2.2",
     "wdio-sauce-service": "^0.2.2",
