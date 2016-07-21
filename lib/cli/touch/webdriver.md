@@ -17,38 +17,6 @@ upon creating the files, you will be ask to choose options for
 ## Configs that you may want to change
 <br>
 
-
-
-### server
-if you have a [Express JS App](http://expressjs.com/) to serve your static contents that your want to test. You could specify your app and port in ```server``` in the config file. An instance of the app would be created during testing.
-
-Example:
-```app.js```:
-```
-var app = require('express')();
-.
-.   app setting
-.
-module.exports = app;
-```
-
-```config.js```
-```
-    .
-    .   other config
-    .
-    server: {
-        app: require('app.js'),
-        port: process.env.PORT || 3000
-    },
-    .
-    .   other config
-    .
-```
-<br>
-
-
-
 ### specs
 Your definitely want do put in your file paths or patterns for the test spec files in ```specs``` for it was empty from ```testenv touch```.
 <br>
@@ -63,6 +31,7 @@ Your definitely want do put in your file paths or patterns for the test spec fil
 
 ### capabilities
 You may want to specify what platforms and browsers you want for testing. The default from ```testenv touch``` is
+
 ```
 capabilities: [
     {
