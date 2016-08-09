@@ -1,5 +1,6 @@
 const colors = require('colors');
-function install(app) {
+const os = require('os');
+function installOnMac(app) {
     const path = require('path');
     const fs = require('fs');
     var globalBin, scriptCode;
@@ -11,4 +12,6 @@ function install(app) {
     });
 }
 console.log('Using sudo to install command line...'.yellow);
-install('testenv');
+if (os.platform() === 'darwin') {
+    installOnMac('testenv');
+}
