@@ -1,6 +1,6 @@
 {
   "name": "testenv",
-  "version": "0.2.10",
+  "version": "0.2.11",
   "description": "A handy test environment that uses Karma/Webdriver/Mocha test runners for your client/server side unit/integration test and end-to-end test with light configuration and simple command lines.",
   "main": "index.js",
   "scripts": {
